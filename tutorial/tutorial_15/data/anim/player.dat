@@ -1,0 +1,32 @@
+PLAYER_CROUCH_RIGHT
+1
+gfx/player/player_crouch_right.gif 6
+PLAYER_CROUCH_LEFT
+1
+gfx/player/player_crouch_left.gif 6
+PLAYER_STAND_RIGHT
+1
+gfx/player/player_stand_right.gif 6
+PLAYER_STAND_LEFT
+1
+gfx/player/player_stand_left.gif 6
+PLAYER_WALK_RIGHT
+8
+gfx/player/player_walk_right00.gif 6
+gfx/player/player_walk_right01.gif 6
+gfx/player/player_walk_right02.gif 6
+gfx/player/player_walk_right03.gif 6
+gfx/player/player_walk_right04.gif 6
+gfx/player/player_walk_right05.gif 6
+gfx/player/player_walk_right06.gif 6
+gfx/player/player_walk_right07.gif 6
+PLAYER_WALK_LEFT
+8
+gfx/player/player_walk_left00.gif 6
+gfx/player/player_walk_left01.gif 6
+gfx/player/player_walk_left02.gif 6
+gfx/player/player_walk_left03.gif 6
+gfx/player/player_walk_left04.gif 6
+gfx/player/player_walk_left05.gif 6
+gfx/player/player_walk_left06.gif 6
+gfx/player/player_walk_left07.gif 6

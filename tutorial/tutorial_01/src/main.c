@@ -11,30 +11,21 @@ extern void getInput(void);
 
 int main(int argc, char *argv[])
 {
-	int go;
-	
 	/* Start up SDL */
-	
 	init("Parallel Realities Tutorial 1");
-	
+
 	/* Call the cleanup function when the program exits */
-	
 	atexit(cleanup);
-	
-	go = 1;
-	
+
 	/* Loop indefinitely for messages */
-	
-	while (go == 1)
+	for(;;)
 	{
 		getInput();
-		
+
 		/* Sleep briefly to stop sucking up all the CPU time */
-		
 		SDL_Delay(16);
 	}
-	
+
 	/* Exit the program */
-	
 	exit(0);
 }

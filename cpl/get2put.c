@@ -10,4 +10,3 @@ main() {
 		c = getchar();
 	}
 }
-

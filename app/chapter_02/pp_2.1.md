@@ -3,7 +3,7 @@ Practice Problem 2.1
 
 
 Question
--------- 
+--------
 
 Perform the following number conversions:
 

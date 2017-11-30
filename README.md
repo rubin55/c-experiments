@@ -1,6 +1,10 @@
 A repository for various C based experiments.
 =============================================
 
+app
+---
+Excercises and code related to the CS:APP book and course.
+
 cpl
 ---
 

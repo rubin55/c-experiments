@@ -20,7 +20,7 @@ Table of hexadecimal, decimal and binary
 Converting from binary to hexadecimal
 -------------------------------------
 
-To convert from binary to hexadecimal, split up the number in parts of four. If the number is nog a multiple of four, you should prepend the leftmost group with zeroes.
+To convert from binary to hexadecimal, split up the number in parts of four. If the number is not a multiple of four, you should prepend the leftmost group with zeroes.
 
 
 When a value is a power of two

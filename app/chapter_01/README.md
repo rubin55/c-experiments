@@ -1,4 +1,4 @@
 Notes
 =====
 
-I'm reading mostly from the 2nd edition. This chapter did not contain any practice exercises.
+I'm reading mostly from the 3rd edition. This chapter did not contain any practice exercises.

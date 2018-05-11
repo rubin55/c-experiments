@@ -26,6 +26,7 @@ void show_pointer(void *x) {
 
 int main(int argc, char **argv) {
 
+    // This if-statement breaks open watcom.. why?
     if (argc <= 1) {
         printf("Please specify a number. For example:\n");
         printf("%s 12345", argv[0]);

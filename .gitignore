@@ -34,3 +34,7 @@
 
 # Project files
 .vscode/
+.idea/
+
+# Cmake stuff
+cmake-build*/

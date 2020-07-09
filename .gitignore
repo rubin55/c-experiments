@@ -37,4 +37,5 @@
 .idea/
 
 # Cmake stuff
+build/
 cmake-build*/

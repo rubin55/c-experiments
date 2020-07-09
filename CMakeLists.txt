@@ -33,6 +33,7 @@ add_executable(c_experiments
         cpl/fahr2cels.c
         cpl/get2put.c
         cpl/hello.c
+        mc/getting-started.c
         sdl/tutorial_01/src/defs.h
         sdl/tutorial_01/src/init.c
         sdl/tutorial_01/src/init.h

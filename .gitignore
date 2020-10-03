@@ -39,3 +39,4 @@
 # Cmake stuff
 build/
 cmake-build*/
+.ccls-cache/

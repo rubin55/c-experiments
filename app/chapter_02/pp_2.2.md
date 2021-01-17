@@ -17,6 +17,7 @@ representations of different powers of 2:
 |     |        32|          |
 |     |          |      0x80|
 
+
 Answer
 ------
 

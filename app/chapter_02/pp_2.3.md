@@ -1,4 +1,4 @@
- Practice Problem 2.3
+Practice Problem 2.3
 ====================
 
 
@@ -16,6 +16,9 @@ and hexidecimal representations of different byte patterns:
 |  188|          |          |
 |     | 1000 1000|          |
 |     | 1111 0011|          |
+|     |          |      0x52|
+|     |          |      0xAC|
+|     |          |      0xE7|
 
 
 Answer
@@ -29,3 +32,6 @@ Answer
 |  188| 1011 1100|      0xBC|
 |  136| 1000 1000|      0x88|
 |  243| 1111 0011|      0xF3|
+|   82| 0101 0010|      0x52|
+|  172| 1010 1100|      0xAC|
+|  231| 1110 0111|      0xE7|

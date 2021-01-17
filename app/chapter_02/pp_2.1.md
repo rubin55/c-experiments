@@ -1,4 +1,4 @@
- Practice Problem 2.1
+Practice Problem 2.1
 ====================
 
 

@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
 
     if (argc <= 1) {
         printf("Please specify a number. For example:\n");
-        printf("%s 12345", argv[0]);
+        printf("%s 12345\n", argv[0]);
         return 1;
     }
 

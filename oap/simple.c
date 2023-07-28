@@ -2,7 +2,9 @@
 
 void display() {
   glClear(GL_COLOR_BUFFER_BIT);
-  glLineWidth(10.0f);
+  glEnable(GL_LINE_STIPPLE);
+  glLineWidth(2.0f);
+  glLineStipple(3, 0xcccc);
   glBegin(GL_LINE_LOOP);
     glColor3d(0.1, 0.4, 0.7);
     glVertex2d(-0.5, -0.5);

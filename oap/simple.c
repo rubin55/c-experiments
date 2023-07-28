@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <GL/glut.h>
 
 void display() {
@@ -20,6 +21,10 @@ void display() {
 }
 
 void init() {
+  printf("Vendor:     %s\n", glGetString(GL_VENDOR));
+  printf("Version:    %s\n", glGetString(GL_VERSION));
+  printf("Renderer:   %s\n", glGetString(GL_RENDERER));
+  //printf("Extensions: %s\n", glGetString(GL_EXTENSIONS));
   glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
   glColor3d(1.0, 0.4, 0.0);
   glMatrixMode(GL_PROJECTION);

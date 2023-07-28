@@ -2,8 +2,8 @@
 
 void display() {
   glClear(GL_COLOR_BUFFER_BIT);
-  glPointSize(10.0f);
-  glBegin(GL_POLYGON);
+  glLineWidth(10.0f);
+  glBegin(GL_LINE_LOOP);
     glColor3d(0.1, 0.4, 0.7);
     glVertex2d(-0.5, -0.5);
     glColor3d(0.5, 0.1, 0.2);

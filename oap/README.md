@@ -1,3 +1,3 @@
-at
+oap
 ---
-Excercises and code related to the Autotools book by John Calcote.
+Excercises and code for OpenGL: A Primer by Edward Angel.

@@ -1,3 +1,3 @@
-app
+at
 ---
-Excercises and code related to the CS:APP book and course.
+Excercises and code related to the Autotools book by John Calcote.

@@ -1,23 +1,8 @@
 A repository for various C based experiments.
 =============================================
 
-app
----
-Excercises and code related to the CS:APP book and course.
+This repository contains various C files which I have been working on whilst 
+studying. The code is not intended to be used for any purpose other than 
+experimentation and learning.
 
-cpl
----
-
-Various exercises from The C Programming language.
-
-sdl
----
-
-A repository with various SDL experiments.
-
-Note to self: the tutorial directory contains tutorial example files from [here](http://www.parallelrealities.co.uk/2011/09/basic-game-tutorial-1-opening-window.html).
-
-tcc
----
-
-Various exercises from the 20th Century C book.
+I use CMake to build, see CMakeLists.txt for details.

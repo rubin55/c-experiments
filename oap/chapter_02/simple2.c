@@ -1,12 +1,9 @@
-#include <stdio.h>
 #include <GL/glut.h>
 
 void display() {
   glClear(GL_COLOR_BUFFER_BIT);
-  glEnable(GL_LINE_STIPPLE);
-  glLineWidth(2.0f);
-  glLineStipple(3, 0xcccc);
-  glBegin(GL_LINE_LOOP);
+  glPointSize(10.0f);
+  glBegin(GL_POLYGON);
     glColor3d(0.1, 0.4, 0.7);
     glVertex2d(-0.5, -0.5);
     glColor3d(0.5, 0.1, 0.2);
@@ -21,10 +18,6 @@ void display() {
 }
 
 void init() {
-  printf("Vendor:     %s\n", glGetString(GL_VENDOR));
-  printf("Version:    %s\n", glGetString(GL_VERSION));
-  printf("Renderer:   %s\n", glGetString(GL_RENDERER));
-  //printf("Extensions: %s\n", glGetString(GL_EXTENSIONS));
   glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
   glColor3d(1.0, 0.4, 0.0);
   glMatrixMode(GL_PROJECTION);

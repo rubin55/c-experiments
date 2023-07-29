@@ -31,6 +31,8 @@ add_executable(simple2 oap/chapter_02/simple2.c)
 target_link_libraries(simple2 GL GLU glut)
 add_executable(simple3 oap/chapter_02/simple3.c)
 target_link_libraries(simple3 GL GLU glut)
+add_executable(subdivision oap/chapter_02/subdivision.c)
+target_link_libraries(subdivision GL GLU glut)
 
 # tcc
 add_executable(first tcc/first.c)

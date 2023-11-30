@@ -1,7 +1,7 @@
+set(CMAKE_WARN_DEPRECATED OFF CACHE BOOL "" FORCE)
 cmake_minimum_required(VERSION 2.8)
-project(c_experiments)
 
-set(CMAKE_CXX_STANDARD 14)
+project(c_experiments)
 
 include_directories(app)
 include_directories(cpl)

@@ -24,8 +24,7 @@
  *
  * Returns 0 on success. Otherwise -1 is returned.
  */
-int read_event(int fd, struct js_event *event)
-{
+int read_event(int fd, struct js_event *event) {
     ssize_t bytes;
 
     bytes = read(fd, event, sizeof(*event));
@@ -40,8 +39,7 @@ int read_event(int fd, struct js_event *event)
 /**
  * Returns the number of axes on the controller or 0 if an error occurs.
  */
-size_t get_axis_count(int fd)
-{
+size_t get_axis_count(int fd) {
     __u8 axes;
 
     if (ioctl(fd, JSIOCGAXES, &axes) == -1)
@@ -53,8 +51,7 @@ size_t get_axis_count(int fd)
 /**
  * Returns the number of buttons on the controller or 0 if an error occurs.
  */
-size_t get_button_count(int fd)
-{
+size_t get_button_count(int fd) {
     __u8 buttons;
     if (ioctl(fd, JSIOCGBUTTONS, &buttons) == -1)
         return 0;
@@ -78,12 +75,10 @@ struct axis_state {
  *
  * Returns the axis that the event indicated.
  */
-size_t get_axis_state(struct js_event *event, struct axis_state axes[3])
-{
+size_t get_axis_state(struct js_event *event, struct axis_state axes[3]) {
     size_t axis = event->number / 2;
 
-    if (axis < 3)
-    {
+    if (axis < 3) {
         if (event->number % 2 == 0)
             axes[axis].x = event->value;
         else
@@ -93,8 +88,7 @@ size_t get_axis_state(struct js_event *event, struct axis_state axes[3])
     return axis;
 }
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     const char *device;
     int js;
     struct js_event event;
@@ -112,10 +106,8 @@ int main(int argc, char *argv[])
         perror("Could not open joystick");
 
     /* This loop will exit if the controller is unplugged. */
-    while (read_event(js, &event) == 0)
-    {
-        switch (event.type)
-        {
+    while (read_event(js, &event) == 0) {
+        switch (event.type) {
             case JS_EVENT_BUTTON:
                 printf("Button %u %s\n", event.number, event.value ? "pressed" : "released");
                 break;
@@ -128,7 +120,7 @@ int main(int argc, char *argv[])
                 /* Ignore init events. */
                 break;
         }
-        
+
         fflush(stdout);
     }
 
